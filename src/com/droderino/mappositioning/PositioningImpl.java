@@ -70,4 +70,9 @@ public class PositioningImpl implements Positioning {
 	public void stopTracking() {
 		tracker.disableTracking();
 	}
+
+	@Override
+	public boolean isTracking() {
+		return tracker.statusTracking();
+	}
 }

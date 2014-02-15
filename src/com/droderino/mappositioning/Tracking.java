@@ -24,4 +24,9 @@ public class Tracking extends Observable{
 		setChanged();
 		notifyObservers(isTracking);
 	}
+	
+	public boolean statusTracking()
+	{
+		return this.isTracking;
+	}
 }

@@ -7,13 +7,14 @@
       <x>440</x>
       <y>630</y>
       <w>140</w>
-      <h>70</h>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Tracking
 
 --
 +enableTracking()
 +disableTracking()
++statusTracking()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -23,7 +24,7 @@
       <x>620</x>
       <y>450</y>
       <w>260</w>
-      <h>140</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>PositioningImpl
 
@@ -34,7 +35,7 @@
 +stop()
 +startTracking()
 +stopTracking()
-</panel_attributes>
++isTracking</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -61,7 +62,7 @@
       <x>610</x>
       <y>260</y>
       <w>280</w>
-      <h>130</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 Positioning
@@ -71,7 +72,7 @@ Positioning
 +stop()
 +startTracking()
 +stopTracking()
-
++isTracking()
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -90,12 +91,12 @@ Positioning
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>710</x>
-      <y>360</y>
+      <y>380</y>
       <w>50</w>
-      <h>110</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>30;30;30;90</additional_attributes>
+    <additional_attributes>30;30;30;70</additional_attributes>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>

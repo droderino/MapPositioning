@@ -13,4 +13,6 @@ public interface Positioning {
 	public abstract void startTracking();
 	
 	public abstract void stopTracking();
+	
+	public abstract boolean isTracking();
 }
